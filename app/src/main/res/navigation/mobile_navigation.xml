@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_anim">
+
+    <fragment
+        android:id="@+id/nav_anim"
+        android:name="com.heckaitor.playground.anim.AnimateFragment"
+        android:label="@string/menu_anim"
+        tools:layout="@layout/fragment_animate" />
+
+    <fragment
+        android:id="@+id/nav_draw"
+        android:name="com.heckaitor.playground.draw.DrawFragment"
+        android:label="@string/menu_draw" />
+
+    <fragment
+        android:id="@+id/nav_rv"
+        android:name="com.heckaitor.playground.rv.RvFragment"
+        android:label="@string/menu_rv"
+        tools:layout="@layout/fragment_rv" />
+</navigation>
